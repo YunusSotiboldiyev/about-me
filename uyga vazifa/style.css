@@ -1,0 +1,122 @@
+.all {
+     width: 100%;
+     height: 100vh;
+ }
+body{
+     background-color: aliceblue;
+}
+ .card {
+     width: 100%;
+     width: 540px;
+     scroll-behavior:unset;
+     margin: 70px auto 20px;
+     background-color: white;
+     border-radius: 30px;
+     padding: 40px 30px 20px;
+     position: relative;
+     box-shadow: 0 0 10px hsl(0, 1%, 24%);
+ }
+ .section1{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+ }
+ .p2 {
+     color: hsl(0, 2%, 36%);
+     background-color: hsl(0, 0%, 95%);
+     padding: 15px 50px;
+     border-radius: 10px;
+     font-size: 18px;
+ }
+ .p2 i {
+     color: #5d479f;
+ }
+ .section1 img {
+     width: 200px;
+     height: auto;
+     position: absolute;
+     left: 160px;
+     top: -100px;
+     border-radius: 20px;
+     border: 2px solid #ffffff;
+ }
+ .p1 {
+     font-size: 15px;
+     color: hsl(0, 0%, 40%);
+     text-align: center;
+     padding: 15px;
+ }
+ .name,.study {
+     text-align: center;
+     padding: 5px;
+ }
+ .name{
+     padding-top: 10px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+ .name i {
+     color: blue;
+     font-size: 20px;
+ }
+ .study{
+     font-size: 15px;
+ }
+ .section2 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .section2 i {
+     font-size: 50px;
+     padding: 10px;
+     background-color: hsl(0, 1%, 63%);
+     border-radius: 10px;
+     font-weight: 50px;
+     margin: 20px auto;
+ }
+ .section2 i:hover {
+     color: #7868b2;
+     background-color: hsl(0, 0%, 100%);
+     cursor: pointer;
+ }
+ .button{
+     height: 50px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     border: 1px solid hsl(0, 2%, 75%);
+     border-radius: 10px;
+     box-shadow: 0 0 10px hsl(0, 1%, 71%);
+ }
+ .p3{
+     padding: 20px 0 15px;
+     font-size: 20px;
+ }
+
+ .p4{
+     padding: 15px 10px;
+     background-color: hsl(0, 1%, 76%);
+     border-radius: 10px;
+     border: 0.5px solid hsl(0, 6%, 80%);
+     margin: 20px 0 25px;
+ }
+ .bottoon {
+     padding: 20px 0px;
+     width: 100%;
+     font-size: 20px;
+     font-weight: 700px;
+     color: white;
+     background-color: #6037f7;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     border: #3c0aee 2px solid;
+ }
+ .bottoon:hover {
+     color: #3400f0;
+     background-color: hsl(252, 28%, 52%);
+ }
